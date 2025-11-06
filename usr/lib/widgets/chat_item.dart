@@ -53,7 +53,7 @@ class ChatItem extends StatelessWidget {
                   : FontWeight.normal,
             ),
           ),
-          if (chat.unreadCount > 0) ..[
+          if (chat.unreadCount > 0) ...[
             const SizedBox(height: 4),
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
